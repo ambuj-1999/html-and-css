@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+
+    <input type="text" placeholder="Enter your username">
+    <input type="password" placeholder="Enter your password">
+    <input type="email" placeholder="email">
+    <input type="color">
+    <input type="date">
+    <input type="time">
+    <input type="file">
+    <input type="radio">
+    <input type="checkbox" checked>
+    <input type="range" min="1" max="5" step="2">
+
+    <h1>GET</h1>
+
+    <form action="https://myapp.com/somerandom" method="get">
+        <input type="text" placeholder="brand" name="brand">
+        <input type="text" placeholder="color" name="color">
+        <button type="submit">Submit</button>
+    </form>
+    <h1>POST</h1>
+
+    <form action="https://myapp.com/somerandom" method="post">
+        <input type="text" placeholder="brand" name="brand">
+        <input type="text" placeholder="color" name="color">
+        <button type="submit">Submit</button>
+    </form>
+
+    <h1>Google Search</h1>
+
+    <form action="https://google.com/search" method="get">
+        <input type="text" placeholder="Google search" name="q">
+        <button type="submit">Search</button>
+    </form>
+
+    <h1>YouTube Search</h1>
+
+    <form action="https://youtube.com/results" method="get">
+        <label for="search">YT Search</label>
+        <input type="text" placeholder="YouTube search" name="search_query" id="search">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
